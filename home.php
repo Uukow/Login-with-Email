@@ -61,7 +61,7 @@ if($email != false && $password != false){
 </head>
 <body>
     <nav class="navbar">
-    <a class="navbar-brand" href="#">Brand name</a>
+    <a class="navbar-brand" href="#">Uukow</a>
     <button type="button" class="btn btn-light"><a href="logout-user.php">Logout</a></button>
     </nav>
     <h1>Welcome <?php echo $fetch_info['name'] ?></h1>
