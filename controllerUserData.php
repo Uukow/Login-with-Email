@@ -29,7 +29,7 @@ if(isset($_POST['signup'])){
         if($data_check){
             $subject = "MWN Email Verification Code";
             $message = "Your verification code is $code";
-            $sender = "From: shahiprem7890@gmail.com";
+            $sender = "From: abdulkadiruukow@gmail.com";
             if(mail($email, $subject, $message, $sender)){
                 $info = "We've sent a verification code to your email - $email";
                 $_SESSION['info'] = $info;
@@ -114,7 +114,7 @@ if(isset($_POST['signup'])){
             if($run_query){
                 $subject = "Password Reset Code";
                 $message = "Your password reset code is $code";
-                $sender = "From: werispodcast@gmail.com";
+                $sender = "From: youremail@gmail.com";
                 if(mail($email, $subject, $message, $sender)){
                     $info = "We've sent a passwrod reset otp to your email - $email";
                     $_SESSION['info'] = $info;
